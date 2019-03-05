@@ -1,0 +1,5 @@
+num=int(input("numero de seg\n"))
+hor=(int(num/3600))
+min=int((num-(hor*3600))/60)
+seg=num-((hor*3600)+(min*60))
+print(str(hor)+"h "+str(min)+"m "+str(seg)+"s")
